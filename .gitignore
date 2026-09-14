@@ -1,0 +1,31 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+
+# ── Virtual environments ────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Streamlit ───────────────────────────────────────────────────────────────
+# config.toml IS committed — it pins the light theme. Secrets never are.
+.streamlit/secrets.toml
+
+# ── PyCharm ─────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+._*
+
+# ── Notebooks / scratch ─────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.log
